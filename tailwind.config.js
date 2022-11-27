@@ -11,13 +11,5 @@ module.exports = {
     },
   },
   plugins: [require('@tailwindcss/typography')],
-  redirects: async() => {
-    return [
-      {
-        source: '/posts/prancing-pony',
-        destination: 'trendofweek.com',
-        permanent: true,
-      },
-     ]
-  },
+
 }
